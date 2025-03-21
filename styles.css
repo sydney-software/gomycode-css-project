@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: rgb(205, 81, 50)
+  
+}
+
+/* basic resert */
+nav {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(128, 128, 128);
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  flex: 1; /* Equal space for each item */
+}
+
+.nav-links a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+}
+/* Section styles */
+.about {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: brown;
+  padding: 10px;
+}
+/* button */
+button {
+  background-color: bisque;
+  padding: 10px 20px;
+  text-justify: auto;
+  flex: 100%;
+}
